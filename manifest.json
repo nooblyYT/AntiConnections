@@ -1,11 +1,15 @@
+manifest_version": 3,
+"name": "Roblox 'Connections' -> 'Friends'",
+"version": "1.0",
+"description": "Changes 'Connections' to 'Friends' on Roblox to counter the controversial update.",
+"permissions": ["scripting"],
+"host_permissions": [
+"https://roblox.com*"
+],
+"content_scripts": [
 {
-  "manifest_version": 3,
-  "name": "BobRossRocks",
-  "version": "1.0.0",
-  "content_scripts": [
-    {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["Content.js"]
-    }
-  ]
+"matches": ["https://roblox.com*"],
+"js": ["Content.js"]
+}
+]
 }
