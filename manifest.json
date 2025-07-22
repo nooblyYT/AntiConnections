@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Roblox 'Connections' -> 'Friends'",
+  "name": "AntiConnections",
   "version": "1.0",
   "description": "Changes 'Connections' to 'Friends' on Roblox to counter the controversial update.",
   "permissions": ["scripting"],
