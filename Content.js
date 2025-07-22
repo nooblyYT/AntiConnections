@@ -1,15 +1,19 @@
-let bobRossImages = [
-  "https://bit.ly/3Ck6DTU",
-  "https://bit.ly/3ozQCVk",
-  "https://bit.ly/3omYDN6",
-  "https://bit.ly/3osrfoi",
-  "https://bit.ly/3qCPjax",
-  "https://bit.ly/3CkRXE6",
-];
-
-const imgs = document.getElementsByTagName("img");
-
-for (image of imgs) {
-  const index = Math.floor(Math.random() * bobRossImages.length);
-  image.src = bobRossImages[index];
+function replaceText(node) {
+if (node.nodeType === Node.TEXT_NODE) {
+if (node.textContent.includes("Connections")) {
+node.textContent = node.textContent.replace(/Connections/g, "Friends");
 }
+} else {
+node.childNodes.forEach(replaceText);
+}
+}
+
+// Initial replace on page load
+replaceText(document.body);
+
+// Also observe changes in case the page dynamically loads content
+const observer = new MutationObserver(() => {
+replaceText(document.body);
+});
+
+observer.observe(document.body, { childList: true, subtree: true });
