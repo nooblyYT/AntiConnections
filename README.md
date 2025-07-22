@@ -8,4 +8,4 @@ Go to this video: https://www.youtube.com/watch?v=Zt_6UXvoKHM&ab_channel=HassanE
 
 Thanks For Using This!
 
-(Also, group the manifest.json and the content.jsn into a file or just download the release)
+(Also, group the manifest.json and the content.jsn into a file after downloading)
