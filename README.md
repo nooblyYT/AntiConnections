@@ -1,6 +1,6 @@
 # Hello
 
-So you want to change the new connections update back to friends? well you have come to the right place
+So you want to change the new connections update back to friends? Well, you have come to the right place
 
 # How do you use it?
 
@@ -8,4 +8,4 @@ Go to this video: https://www.youtube.com/watch?v=Zt_6UXvoKHM&ab_channel=HassanE
 
 Thanks For Using This!
 
-(Also group all the files except the read me into a file)
+(Also, group the manifest.json and the content.jsn into a file or just download the release)
